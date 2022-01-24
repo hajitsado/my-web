@@ -7,14 +7,7 @@
     <title>Home page</title>
     <link rel="stylesheet" href="./asset/css/style.css">
     <script src="https://kit.fontawesome.com/32c41353e6.js"crossorigin="anonymous"></script>
-    <style>
-        video{
-            display:block;
-            margin: 1em auto;
-            width: 80%;
-            height: calc(0.5625 * 80vw)
-        }
-    </style>
+
 </head>
 <body>
     <div class="navbar">
@@ -45,13 +38,18 @@
     </div>
     <div class="Tec">
         <h5>
-            Here are some of our learning course programmes we offer to our students
+            Here is a tutorial video of services provided by this company.
         </h5>
         <div class="course">
-            Full course
+            <iframe
+        id="video"
+        height="400"
+         width="700"
+        src="https://www.youtube.com/watch?v=xekZXhumB0k"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
         </div>
-        <video controls>
-            <source src="./asset/img/vig.mp4" type="video/mp4" width="1em auto" > 
-        </video>
+
 </body>
 </html>

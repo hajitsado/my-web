@@ -32,7 +32,19 @@ margin-left: 130px;
     margin-left: 130px;
     margin-top: -45px;
 } 
-
+.notes p{
+    padding: 60px;
+}
+.Tec h5{
+    text-align: center;
+}
+.course {
+text-align: center;
+}
+.course iframe{
+    max-height: 100%;
+    max-width: 100%;
+}
 .checkbtn{
     font-size: 30px;
     color:black;
